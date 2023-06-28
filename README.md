@@ -1,0 +1,2 @@
+# codingiscool
+lifestyle blog bruh
