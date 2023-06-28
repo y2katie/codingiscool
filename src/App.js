@@ -27,3 +27,6 @@ function App() {
 }
 
 export default App;
+
+
+// https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
