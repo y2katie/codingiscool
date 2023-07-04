@@ -4,10 +4,10 @@ import Navbar from "./components/Navbar";
 import SimpleBottomNavigation from "./components/Navbar/BottomNav.js";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./components/pages";
-import About from "./components/pages"
-import Blogs from "./components/pages";
-import SignUp from "./components/pages";
-import Contact from "./components/pages";
+// import About from "./components/pages"
+// import Blogs from "./components/pages";
+// import SignUp from "./components/pages";
+// import Contact from "./components/pages";
 
 
 
@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element = {<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} /> */}
 
       </Routes>
       <SimpleBottomNavigation />
