@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Navbar";
-import SimpleBottomNavigation from "./components/Navbar/BottomNav.js";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./components/pages";
+import Labtabs from "./components/LabTabs.js";
+
 // import About from "./components/pages"
 // import Blogs from "./components/pages";
 // import SignUp from "./components/pages";
@@ -15,7 +15,6 @@ import Home from "./components/pages";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route exact path="/" element = {<Home />} />
         {/* <Route path="/about" element={<About />} />
@@ -24,7 +23,8 @@ function App() {
         <Route path="/signup" element={<SignUp />} /> */}
 
       </Routes>
-      <SimpleBottomNavigation />
+      <Labtabs />     
+
 
     </Router>
   );
